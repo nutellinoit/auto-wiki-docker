@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+      image: nutellinoit/awesomedocs:1.0
+      ports:
+          - "65000:80"
+      restart: always
+
